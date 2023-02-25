@@ -1,0 +1,264 @@
+
+.nav-link{
+        
+    margin-top: 20px;
+    color: #fff;
+  }
+  .nav-link:hover{
+    color: var(--color);
+    position:sticky;
+    top:0
+  }
+  body{
+    background-color: #23253a;
+    color: #fc4b52;
+    
+  }
+  .Hello{
+    position: relative;
+   right:14%;
+   font-family: Gabriola;
+  }
+  .a{
+    font-size: 24px;
+    right:7%;
+   
+  }
+  .level{
+    font-size: 17px;
+    position: relative;
+    right:15%;
+   
+  }
+
+/* timelin 1 */
+
+  .timelin-area{
+/* margin: 90px auto; */
+width: 360px;
+margin-top: 20px;
+height: 120px;
+border-left: 1px solid #fe505a;
+padding: 0 20px 30px ;
+}
+#div{
+
+padding: 75px 25px;
+font-size: 16px;
+color: #23253a;
+line-height: 2.1;
+position: relative;
+height: 10px;
+
+
+}
+
+#div::after{
+content: '';
+
+display: block;
+width: 16px;
+height: 15px;
+border-radius: 50%;
+background-color: #fe505a;
+border: 3px solid #fe505a;
+position: absolute;
+top: 0px;
+
+right: 332px;
+
+}
+#div.div2::after{
+content: '';
+
+display: block;
+width: 16px;
+height: 15px;
+border-radius: 50%;
+background-color: #fe505a;
+border: 3px solid #fe505a;
+position: absolute;
+top:-30px;
+
+right: 332px;
+
+
+} 
+
+
+
+
+/* button */
+
+
+.con{
+    background-color: #fe505a;
+    color: #fff;
+    position: relative;
+    right: 120px;
+    }
+
+
+    /* timelin 2 */
+
+    
+    .h1{
+        font-family:  'Poppins', sans-serif;
+        font-size: 50px;
+        position: relative;
+        left: 50%;
+        top:300px;
+        font-weight: bold;
+        color: #fff;
+      }
+      .h3{
+        font-family:  'Poppins', sans-serif;
+        font-size: 20px;
+        position: relative;
+        left: 50%;
+        top:280px;
+        font-weight: bold;
+        color: var(--text);
+      }
+      .h6{
+        color:  #dddddd81;
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+      }
+      .h4{
+        color: #ddd;
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+      }
+      .h2{
+        color: #fff;
+      font-size: 25px;
+      position: relative;
+      top: 50px;
+       
+      }
+    .last{
+        position: relative;
+        bottom: 50px;
+      
+    }
+    .widget-title{
+        position: relative;
+        top:50px;
+        right:90px;
+      
+    }
+    .widget-title::before{
+        content: "";
+      position: absolute;
+      left: 10;
+      bottom: -15px;
+      width: 50px;
+      height: 3px;
+      background: linear-gradient(95.45deg, #23253a 0.64%, #fe505a 98.23%);
+      }
+     .me{
+        font-size: 18px;
+        color: #fff;
+        position: relative;
+        top:12px
+     }
+     .name{
+        color: #fff;
+        font-size: 40px;
+        position: relative;
+        top:10px ;
+
+     }
+     .l{
+        color:#fe5055ee !important;
+     }
+     .com{
+      font-size: 15px;
+      font-size: 24px;
+      color: #ddd;
+     }
+     .Ed.active{
+        background: linear-gradient(95.45deg, #fe5059b0 0.64%, #fe505a 98.23%) !important;
+        border-radius: 10px;
+     }
+     .progress{
+        height: 6px;
+        margin-bottom: 20px;
+        
+       
+      }
+      .progress-bar{
+          background-color: #fe5055ee ;
+          color: red;
+          justify-content:right !important;
+          flex-direction:row;
+      
+      }
+      .accordion-item{
+          border-radius: 20px !important;
+          background: #23253a;
+          color: #fff;
+      }
+      .accordion{
+        font-family:  'Poppins', sans-serif;
+        font-size: 20px;
+        position: relative;
+        left: 27%;
+        top:300px;
+        font-weight: bold;
+        width: 50%;
+     
+       
+      
+      }
+      .accordion-button{
+        background-color:#333;
+        color: #fff;
+        border-radius: 20px !important;
+        border-bottom: 0 !important;
+        margin-bottom: 10px;
+      }
+    .accordion-header{
+        background-color: #333;
+    }
+    .accordion-flush .accordion-item:first-child{
+        border-bottom: 0;
+    }
+    .accordion-flush .accordion-item{
+        border-bottom: 0;
+    }
+    .accordion-button:focus{
+        
+        box-shadow:none
+    }
+    .services-bottom{
+        position: relative;
+        bottom: 260px;
+    }
+    .Skills{
+        position: relative;
+        bottom: 170px;
+        left: 50px;
+    }
+    .about{
+        position: relative;
+        bottom: 60px;
+    }
+
+     .element {
+      background: red;
+    }
+    .promo-area{
+      background: #23253a;
+    }
+   
+   .about2{
+    font-family: Gabriola;
+   }
+   
+  
+    
+  
